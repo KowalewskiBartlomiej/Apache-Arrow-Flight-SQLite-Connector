@@ -1,0 +1,984 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class com.ibm.connect.sdk.bundle.TestBundleFlightProducerGenericJdbc</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class com.ibm.connect.sdk.bundle.TestBundleFlightProducerGenericJdbc</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.ibm.connect.sdk.bundle.html">com.ibm.connect.sdk.bundle</a> &gt; TestBundleFlightProducerGenericJdbc</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">62</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">1</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">4.442s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox failures" id="successRate">
+<div class="percent">98%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Failed tests</a>
+</li>
+<li>
+<a href="#tab1">Tests</a>
+</li>
+<li>
+<a href="#tab2">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Failed tests</h2>
+<div class="test">
+<a name="testConnectionBadDatabase"></a>
+<h3 class="failures">testConnectionBadDatabase</h3>
+<span class="code">
+<pre>java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at com.ibm.connect.sdk.test.jdbc.generic.GenericJdbcTestSuite.testConnectionBadDatabase(GenericJdbcTestSuite.java:2840)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:108)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:40)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:60)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:52)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$2.run(TestWorker.java:176)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:113)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:65)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+</pre>
+</span>
+</div>
+</div>
+<div id="tab1" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testAcceptPutBinary</td>
+<td class="success">0.169s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testAcceptPutBoolean</td>
+<td class="success">0.122s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testAcceptPutCharacter</td>
+<td class="success">0.141s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testAcceptPutDatetime</td>
+<td class="success">0.145s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testAcceptPutDecimal</td>
+<td class="success">0.123s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testAcceptPutNumeric</td>
+<td class="success">0.126s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testAcceptPutUpdate</td>
+<td class="success">0.175s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testAcceptPutUpdateKeyColumnNames</td>
+<td class="success">0.138s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testAcceptPutUpdateStatement</td>
+<td class="success">0.132s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testConnection</td>
+<td class="success">0.008s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="failures">testConnectionBadDatabase</td>
+<td class="failures">0.018s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="success">testConnectionInvalidJdbcUrl</td>
+<td class="success">0.013s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testConnectionMissingJdbcUrl</td>
+<td class="success">0.008s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testConnectionSSL</td>
+<td class="success">0.015s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testConnectionUnknownDriver</td>
+<td class="success">0.018s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCreateStatement</td>
+<td class="success">0.114s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDiscoverColumns</td>
+<td class="success">0.040s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDiscoverColumnsTableWithUnderscore</td>
+<td class="success">0.149s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDiscoverExtendedMetadata</td>
+<td class="success">0.214s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDiscoverPrimaryKeyNamed</td>
+<td class="success">0.062s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDiscoverPrimaryKeyUnnamed</td>
+<td class="success">0.053s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDiscoverSchemas</td>
+<td class="success">0.026s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDiscoverSchemasExcludeSystem</td>
+<td class="success">0.021s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDiscoverSchemasNamePattern</td>
+<td class="success">0.023s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDiscoverSchemasWithPaging</td>
+<td class="success">0.042s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDiscoverTables</td>
+<td class="success">0.032s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDiscoverTablesExcludeSystem</td>
+<td class="success">0.015s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDiscoverTablesExcludeViews</td>
+<td class="success">0.047s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDiscoverTablesNamePattern</td>
+<td class="success">0.049s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDiscoverTablesSchemaNamePattern</td>
+<td class="success">0.054s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDiscoverTablesSchemaWithUnderscore</td>
+<td class="success">0.054s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDiscoverTablesSystemSchema</td>
+<td class="success">0.021s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDiscoverTablesViews</td>
+<td class="success">0.038s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDiscoverTablesWithPaging</td>
+<td class="success">0.108s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDiscoverViewsExcludeTables</td>
+<td class="success">0.039s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testGetFlightInfo</td>
+<td class="success">0.033s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testGetRecordCountAction</td>
+<td class="success">0.068s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testGetStreamBinary</td>
+<td class="success">0.070s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testGetStreamBoolean</td>
+<td class="success">0.061s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testGetStreamByteLimit</td>
+<td class="success">0.074s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testGetStreamCharacter</td>
+<td class="success">0.078s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testGetStreamDatetime</td>
+<td class="success">0.070s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testGetStreamDecimal</td>
+<td class="success">0.065s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testGetStreamFields</td>
+<td class="success">0.124s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testGetStreamNumeric</td>
+<td class="success">0.072s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testGetStreamRowLimit</td>
+<td class="success">0.118s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testGetStreamRowLimitDefault</td>
+<td class="success">0.096s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testGetStreamSelectStatement</td>
+<td class="success">0.077s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testHealthCheckAction</td>
+<td class="success">0.009s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testListActions</td>
+<td class="success">0.010s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testListCustomActions</td>
+<td class="success">0.010s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testListDatasourceTypesAction</td>
+<td class="success">0.021s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testListFlightsInvalidCriteria</td>
+<td class="success">0.009s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testMissingActionBody</td>
+<td class="success">0.010s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testPartitionedGetAndPut</td>
+<td class="success">0.186s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testPutSetupAction</td>
+<td class="success">0.163s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testPutSetupStaticStatement</td>
+<td class="success">0.027s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testPutWrapupAction</td>
+<td class="success">0.144s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testTableActionReplace</td>
+<td class="success">0.131s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testTableActionTruncate</td>
+<td class="success">0.146s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testUnsupportedAction</td>
+<td class="success">0.010s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testValidateAction</td>
+<td class="success">0.008s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>cze 05, 2023 5:57:07 PM com.ibm.connect.sdk.util.AuthUtils getVerificationKeys
+INFO: WDP public key URLs file: /home/bartlomiejkowalewski/Pulpit/cp4d-connector-sdk/sdk-gen/etc/wdp_public_key_urls.txt
+cze 05, 2023 5:57:07 PM com.ibm.connect.sdk.util.AuthUtils getVerificationKeys
+INFO: WDP public keys path: /home/bartlomiejkowalewski/Pulpit/cp4d-connector-sdk/sdk-gen/etc/wdp_public_keys
+cze 05, 2023 5:57:07 PM com.ibm.connect.sdk.util.ServerTokenAuthHandler authenticate
+INFO: Authenticated peer admin
+cze 05, 2023 5:57:07 PM com.ibm.connect.sdk.test.TestFlight &lt;init&gt;
+INFO: Flight server started at grpc+tls://localhost:42397
+cze 05, 2023 5:57:07 PM com.ibm.connect.sdk.test.TestFlight &lt;init&gt;
+INFO: SSL certificate:
+-----BEGIN CERTIFICATE-----
+MIIE+zCCAuOgAwIBAgIGAYiMRsIiMA0GCSqGSIb3DQEBCwUAMBQxEjAQBgNVBAMM
+CWxvY2FsaG9zdDAeFw0yMzA2MDUxNTU3MDdaFw0zMzA2MDUxNTU3MDdaMBQxEjAQ
+BgNVBAMMCWxvY2FsaG9zdDCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIB
+AMXLgPLUqTvYKPRO4Z9+vBgTDnP5N099dhmQ9Oa0JwqL0xlFLFzkmvql8VihnF2f
+xl1Sut90FI3WO6MXLi/brPJINUZ7jvHH0eSIaxaw78NaWPS+lJ5HQcThYbAESVQ5
+SuhbTj79P1XeCsGHRHcMtuE9HT8LnkSKsVxwG8jt6lfUiqcvd2gRUTcrnPVwg95d
+PeDKghAGi40o/YZ13FRpLfU6oICA5jsgl/m3kBUOBY62bw8w8WM2VGTliFurJDPx
+nTmVTL5h068PQBfb3snlMAVIaChgyzhWhRTYWv/aBbRxhCCiPHyiA5SS6Hx3zYhd
+gSkMZcrKoG1lTgaRm3bZ3U5gtDYuDdCngwC2ascZ15cHGwMtp5XJ4RWQfnFQBexa
+e6ia9D85echv0zwLQ5BcfK0IpNAlcpR0HnfxHZT0hNyHT1flM5izDr7UL2ZLywBz
+CE8l9z2t4wf7JxQNPxDVm87Ksp8T3XigDzvp9m4/N3rv7AUk94zjf9bPUYBec63V
+QqkIzd3bpQ/M8eZvlVV6DaeQspo1Nt/pOaT1ugGd8eAdjqD2GNGJuU8doa+7zM9d
+izUxR+mNsak+OqtlMi3DmHtbY9EufO0kPWcradA0rXdNR/PbI7CTvC5rLp8MBGgq
+6iX83421j/FSxhrdntn21nyExsCqlE2eHkEm01nZxRlPAgMBAAGjUzBRMB0GA1Ud
+DgQWBBSLqjOYjjIm3GH4wFR0ZcFItSyqhjAfBgNVHSMEGDAWgBSLqjOYjjIm3GH4
+wFR0ZcFItSyqhjAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4ICAQAV
+smNDGiRumGVWx40nButc1guKK8zKY6X1e47IGH2cq4HWFTGfQ8em2eRZJdnr9Wdj
+ja+CSokxKRRtMt2nxDbB2+SAmbuIs6JcaTer0dhq4QNxF0/yNuk3OqpAuzhtygRv
+RvfMol5BWH2VDey29WdtO1W8wJijUr4NTCPQPslCMvZy9pdeWGExXUMuvCB6bmGa
+lEDIhAbGjxwADtwCMDMRA1JG1o6hXTRB3Wr+O95DP0Wa6tiG7Nnv0nff2/KQ2DtY
+udsrQvf5dFtt9gkCaQR6CAaluVFLTopjwugvstLgE+HepUrTIFBz4K2H/rTDY+a+
+hM6XGFH6gBXwv8OHW8oi76MaiI8UXUjwOwwlOzPou5QXLo5UQ3HlXqlliqtN533a
+kKOduNZZOuH3735ukf1VEVyjCbg8bxYiZxc0NA6zodm6rvUjqy8ij5KMUpRJzt9L
+JtjO1cCWbfntipqzJ8Womt18ecMN/DC8Ge+i86zTo2S1sNId9+FIPmdTIx+Be+yj
+WwtX5GIh7/bFQ9LyMzuKsm6FzvS+HRV/B4Zi+HLKJ0BxwwVNH3nU5HoZX2aWm116
+VIKf8mG93nMYFYShdpynvgHHVMuQbPB6YJgljBqecEdBD6JM7dKrHXkptvKxBdHo
+Mm5xO439hDd+AkonBO6r7rzSgW0A0lCgMOtxJHeJaA==
+-----END CERTIFICATE-----
+
+cze 05, 2023 5:57:07 PM com.ibm.connect.sdk.test.jdbc.derby.DerbyUtils startServer
+WARNING: DRDA_NoIO.S:Could not connect to Derby Network Server on host 192.168.8.134, port 40277: Połączenie odrzucone (Connection refused)
+java.lang.Exception: DRDA_NoIO.S:Could not connect to Derby Network Server on host 192.168.8.134, port 40277: Połączenie odrzucone (Connection refused)
+	at org.apache.derby.impl.drda.NetworkServerControlImpl.consolePropertyMessageWork(NetworkServerControlImpl.java:3516)
+	at org.apache.derby.impl.drda.NetworkServerControlImpl.consolePropertyMessage(NetworkServerControlImpl.java:2107)
+	at org.apache.derby.impl.drda.NetworkServerControlImpl.setUpSocket(NetworkServerControlImpl.java:2766)
+	at org.apache.derby.impl.drda.NetworkServerControlImpl.ping(NetworkServerControlImpl.java:1357)
+	at org.apache.derby.drda.NetworkServerControl.ping(NetworkServerControl.java:431)
+	at com.ibm.connect.sdk.test.jdbc.derby.DerbyUtils.startServer(DerbyUtils.java:53)
+	at com.ibm.connect.sdk.bundle.BundleTestEnvironment.&lt;init&gt;(BundleTestEnvironment.java:120)
+	at com.ibm.connect.sdk.bundle.BundleTestEnvironment.getInstance(BundleTestEnvironment.java:86)
+	at com.ibm.connect.sdk.bundle.TestBundleFlightProducerGenericJdbc.setUpOnce(TestBundleFlightProducerGenericJdbc.java:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.RunBefores.invokeMethod(RunBefores.java:33)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:108)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:40)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:60)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:52)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$2.run(TestWorker.java:176)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:113)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:65)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+
+cze 05, 2023 5:57:08 PM com.ibm.connect.sdk.test.jdbc.derby.DerbyUtils startServer
+INFO: Derby server started at /192.168.8.134:40277
+cze 05, 2023 3:57:08 PM com.ibm.connect.sdk.jdbc.JdbcConnector connect
+INFO: Connecting to jdbc:derby://192.168.8.134:40277/testdb;create=true
+cze 05, 2023 3:57:08 PM com.ibm.connect.sdk.jdbc.JdbcConnector performAction
+INFO: SELECT COUNT(*) FROM &quot;SCHEMA1&quot;.&quot;T1&quot;
+cze 05, 2023 3:57:08 PM com.ibm.connect.sdk.jdbc.JdbcSourceInteraction beginStream
+INFO: SELECT XMLSERIALIZE(C1 AS LONG VARCHAR) AS C1 FROM SCHEMA1.T1
+cze 05, 2023 3:57:08 PM com.ibm.connect.sdk.api.ConnectorFlightProducer doAction
+SEVERE: Invalid JDBC URL invalid
+java.lang.IllegalArgumentException: Invalid JDBC URL invalid
+	at com.ibm.connect.sdk.jdbc.generic.GenericJdbcConnector.getDriverName(GenericJdbcConnector.java:114)
+	at com.ibm.connect.sdk.jdbc.generic.GenericJdbcConnector.&lt;init&gt;(GenericJdbcConnector.java:93)
+	at com.ibm.connect.sdk.bundle.BundleConnectorFactory.createNewConnector(BundleConnectorFactory.java:52)
+	at com.ibm.connect.sdk.api.PooledConnectorFactory.create(PooledConnectorFactory.java:61)
+	at com.ibm.connect.sdk.api.PooledConnectorFactory.create(PooledConnectorFactory.java:21)
+	at org.apache.commons.pool2.BaseKeyedPooledObjectFactory.makeObject(BaseKeyedPooledObjectFactory.java:82)
+	at org.apache.commons.pool2.impl.GenericKeyedObjectPool.create(GenericKeyedObjectPool.java:780)
+	at org.apache.commons.pool2.impl.GenericKeyedObjectPool.borrowObject(GenericKeyedObjectPool.java:439)
+	at org.apache.commons.pool2.impl.GenericKeyedObjectPool.borrowObject(GenericKeyedObjectPool.java:350)
+	at com.ibm.connect.sdk.api.PooledConnectorFactory.createConnector(PooledConnectorFactory.java:96)
+	at com.ibm.connect.sdk.api.ConnectorFlightProducer.doAction(ConnectorFlightProducer.java:380)
+	at org.apache.arrow.flight.FlightService.doAction(FlightService.java:124)
+	at org.apache.arrow.flight.impl.FlightServiceGrpc$MethodHandlers.invoke(FlightServiceGrpc.java:925)
+	at io.grpc.stub.ServerCalls$UnaryServerCallHandler$UnaryServerCallListener.onHalfClose(ServerCalls.java:182)
+	at io.grpc.PartialForwardingServerCallListener.onHalfClose(PartialForwardingServerCallListener.java:35)
+	at io.grpc.ForwardingServerCallListener.onHalfClose(ForwardingServerCallListener.java:23)
+	at io.grpc.ForwardingServerCallListener$SimpleForwardingServerCallListener.onHalfClose(ForwardingServerCallListener.java:40)
+	at io.grpc.Contexts$ContextualizedServerCallListener.onHalfClose(Contexts.java:86)
+	at io.grpc.PartialForwardingServerCallListener.onHalfClose(PartialForwardingServerCallListener.java:35)
+	at io.grpc.ForwardingServerCallListener.onHalfClose(ForwardingServerCallListener.java:23)
+	at io.grpc.ForwardingServerCallListener$SimpleForwardingServerCallListener.onHalfClose(ForwardingServerCallListener.java:40)
+	at io.grpc.Contexts$ContextualizedServerCallListener.onHalfClose(Contexts.java:86)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.halfClosed(ServerCallImpl.java:355)
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$1HalfClosed.runInContext(ServerImpl.java:867)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:133)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+cze 05, 2023 3:57:08 PM com.ibm.connect.sdk.jdbc.JdbcConnector connect
+INFO: Connecting to jdbc:derby://192.168.8.134:40277/unknown
+cze 05, 2023 3:57:08 PM com.ibm.connect.sdk.api.ConnectorFlightProducer doAction
+SEVERE: Nastąpiła odmowa połączenia, ponieważ nie znaleziono bazy danych unknown.
+java.sql.SQLNonTransientConnectionException: Nastąpiła odmowa połączenia, ponieważ nie znaleziono bazy danych unknown.
+	at org.apache.derby.client.am.SQLExceptionFactory.getSQLException(SQLExceptionFactory.java:74)
+	at org.apache.derby.client.am.SqlException.getSQLException(SqlException.java:325)
+	at org.apache.derby.client.ClientAutoloadedDriver.connect(ClientAutoloadedDriver.java:177)
+	at com.ibm.connect.sdk.jdbc.JdbcConnector.connect(JdbcConnector.java:278)
+	at com.ibm.connect.sdk.api.PooledConnector.connect(PooledConnector.java:70)
+	at com.ibm.connect.sdk.api.ConnectorFlightProducer.doAction(ConnectorFlightProducer.java:372)
+	at org.apache.arrow.flight.FlightService.doAction(FlightService.java:124)
+	at org.apache.arrow.flight.impl.FlightServiceGrpc$MethodHandlers.invoke(FlightServiceGrpc.java:925)
+	at io.grpc.stub.ServerCalls$UnaryServerCallHandler$UnaryServerCallListener.onHalfClose(ServerCalls.java:182)
+	at io.grpc.PartialForwardingServerCallListener.onHalfClose(PartialForwardingServerCallListener.java:35)
+	at io.grpc.ForwardingServerCallListener.onHalfClose(ForwardingServerCallListener.java:23)
+	at io.grpc.ForwardingServerCallListener$SimpleForwardingServerCallListener.onHalfClose(ForwardingServerCallListener.java:40)
+	at io.grpc.Contexts$ContextualizedServerCallListener.onHalfClose(Contexts.java:86)
+	at io.grpc.PartialForwardingServerCallListener.onHalfClose(PartialForwardingServerCallListener.java:35)
+	at io.grpc.ForwardingServerCallListener.onHalfClose(ForwardingServerCallListener.java:23)
+	at io.grpc.ForwardingServerCallListener$SimpleForwardingServerCallListener.onHalfClose(ForwardingServerCallListener.java:40)
+	at io.grpc.Contexts$ContextualizedServerCallListener.onHalfClose(Contexts.java:86)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.halfClosed(ServerCallImpl.java:355)
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$1HalfClosed.runInContext(ServerImpl.java:867)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:133)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: ERROR 08004: Nastąpiła odmowa połączenia, ponieważ nie znaleziono bazy danych unknown.
+	at org.apache.derby.client.net.NetConnectionReply.parseRDBNFNRM(NetConnectionReply.java:988)
+	at org.apache.derby.client.net.NetConnectionReply.parseAccessRdbError(NetConnectionReply.java:404)
+	at org.apache.derby.client.net.NetConnectionReply.parseACCRDBreply(NetConnectionReply.java:256)
+	at org.apache.derby.client.net.NetConnectionReply.readAccessDatabase(NetConnectionReply.java:82)
+	at org.apache.derby.client.net.NetConnection.readSecurityCheckAndAccessRdb(NetConnection.java:788)
+	at org.apache.derby.client.net.NetConnection.flowSecurityCheckAndAccessRdb(NetConnection.java:724)
+	at org.apache.derby.client.net.NetConnection.flowUSRIDPWDconnect(NetConnection.java:553)
+	at org.apache.derby.client.net.NetConnection.flowConnect(NetConnection.java:355)
+	at org.apache.derby.client.net.NetConnection.&lt;init&gt;(NetConnection.java:210)
+	at org.apache.derby.client.net.ClientJDBCObjectFactoryImpl.newNetConnection(ClientJDBCObjectFactoryImpl.java:278)
+	at org.apache.derby.client.ClientAutoloadedDriver.connect(ClientAutoloadedDriver.java:170)
+	... 21 more
+
+cze 05, 2023 3:57:09 PM com.ibm.connect.sdk.jdbc.JdbcSourceInteraction beginStream
+INFO: SELECT &quot;C1&quot;, &quot;C2&quot; FROM &quot;SCHEMA1&quot;.&quot;T1&quot;
+cze 05, 2023 3:57:09 PM com.ibm.connect.sdk.api.ConnectorFlightProducer doAction
+SEVERE: Driver [unknown] is not one of [db2, derby, informix-sqli, mariadb, mysql, oracle, postgresql, snowflake, sqlserver]
+java.lang.IllegalArgumentException: Driver [unknown] is not one of [db2, derby, informix-sqli, mariadb, mysql, oracle, postgresql, snowflake, sqlserver]
+	at com.ibm.connect.sdk.jdbc.generic.GenericJdbcConnector.&lt;init&gt;(GenericJdbcConnector.java:95)
+	at com.ibm.connect.sdk.bundle.BundleConnectorFactory.createNewConnector(BundleConnectorFactory.java:52)
+	at com.ibm.connect.sdk.api.PooledConnectorFactory.create(PooledConnectorFactory.java:61)
+	at com.ibm.connect.sdk.api.PooledConnectorFactory.create(PooledConnectorFactory.java:21)
+	at org.apache.commons.pool2.BaseKeyedPooledObjectFactory.makeObject(BaseKeyedPooledObjectFactory.java:82)
+	at org.apache.commons.pool2.impl.GenericKeyedObjectPool.create(GenericKeyedObjectPool.java:780)
+	at org.apache.commons.pool2.impl.GenericKeyedObjectPool.borrowObject(GenericKeyedObjectPool.java:439)
+	at org.apache.commons.pool2.impl.GenericKeyedObjectPool.borrowObject(GenericKeyedObjectPool.java:350)
+	at com.ibm.connect.sdk.api.PooledConnectorFactory.createConnector(PooledConnectorFactory.java:96)
+	at com.ibm.connect.sdk.api.ConnectorFlightProducer.doAction(ConnectorFlightProducer.java:380)
+	at org.apache.arrow.flight.FlightService.doAction(FlightService.java:124)
+	at org.apache.arrow.flight.impl.FlightServiceGrpc$MethodHandlers.invoke(FlightServiceGrpc.java:925)
+	at io.grpc.stub.ServerCalls$UnaryServerCallHandler$UnaryServerCallListener.onHalfClose(ServerCalls.java:182)
+	at io.grpc.PartialForwardingServerCallListener.onHalfClose(PartialForwardingServerCallListener.java:35)
+	at io.grpc.ForwardingServerCallListener.onHalfClose(ForwardingServerCallListener.java:23)
+	at io.grpc.ForwardingServerCallListener$SimpleForwardingServerCallListener.onHalfClose(ForwardingServerCallListener.java:40)
+	at io.grpc.Contexts$ContextualizedServerCallListener.onHalfClose(Contexts.java:86)
+	at io.grpc.PartialForwardingServerCallListener.onHalfClose(PartialForwardingServerCallListener.java:35)
+	at io.grpc.ForwardingServerCallListener.onHalfClose(ForwardingServerCallListener.java:23)
+	at io.grpc.ForwardingServerCallListener$SimpleForwardingServerCallListener.onHalfClose(ForwardingServerCallListener.java:40)
+	at io.grpc.Contexts$ContextualizedServerCallListener.onHalfClose(Contexts.java:86)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.halfClosed(ServerCallImpl.java:355)
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$1HalfClosed.runInContext(ServerImpl.java:867)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:133)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+cze 05, 2023 3:57:09 PM com.ibm.connect.sdk.jdbc.JdbcSourceInteraction beginStream
+INFO: SELECT &quot;C1&quot;, &quot;C2&quot;, &quot;C3&quot;, &quot;C4&quot; FROM &quot;SCHEMA1&quot;.&quot;T1&quot;
+cze 05, 2023 3:57:09 PM com.ibm.connect.sdk.jdbc.JdbcConnector connect
+INFO: Connecting to jdbc:derby://192.168.8.134:40277/testdb;create=true
+cze 05, 2023 3:57:09 PM com.ibm.connect.sdk.jdbc.JdbcTargetInteraction createTable
+INFO: CREATE TABLE &quot;SCHEMA1&quot;.&quot;T2&quot; (&quot;C1&quot; BLOB(2147483647), &quot;C2&quot; CHAR (5) FOR BIT DATA, &quot;C3&quot; LONG VARCHAR FOR BIT DATA, &quot;C4&quot; VARCHAR (20) FOR BIT DATA)
+cze 05, 2023 3:57:09 PM com.ibm.connect.sdk.jdbc.JdbcTargetInteraction putStream
+INFO: INSERT INTO &quot;SCHEMA1&quot;.&quot;T2&quot; (&quot;C1&quot;,&quot;C2&quot;,&quot;C3&quot;,&quot;C4&quot;) VALUES (?,?,?,?)
+cze 05, 2023 3:57:09 PM com.ibm.connect.sdk.jdbc.JdbcSourceInteraction beginStream
+INFO: SELECT &quot;C1&quot;, &quot;C2&quot;, &quot;C3&quot;, &quot;C4&quot; FROM &quot;SCHEMA1&quot;.&quot;T2&quot;
+cze 05, 2023 3:57:09 PM com.ibm.connect.sdk.jdbc.JdbcSourceInteraction beginStream
+INFO: SELECT &quot;C1&quot;, &quot;C2&quot;, &quot;C3&quot;, &quot;C4&quot; FROM &quot;SCHEMA1&quot;.&quot;T1&quot;
+cze 05, 2023 3:57:09 PM com.ibm.connect.sdk.jdbc.JdbcSourceInteraction beginStream
+INFO: SELECT &quot;C1&quot; FROM &quot;SCHEMA1&quot;.&quot;T1&quot;
+cze 05, 2023 3:57:09 PM com.ibm.connect.sdk.jdbc.JdbcTargetInteraction putStream
+INFO: INSERT INTO SCHEMA1.T2 (C1,C2) VALUES (?,'Hello')
+cze 05, 2023 3:57:09 PM com.ibm.connect.sdk.jdbc.JdbcSourceInteraction beginStream
+INFO: SELECT * FROM SCHEMA1.T2 ORDER BY C1
+cze 05, 2023 3:57:09 PM com.ibm.connect.sdk.jdbc.JdbcSourceInteraction beginStream
+INFO: SELECT &quot;C1&quot;, &quot;C2&quot;, &quot;C3&quot; FROM &quot;SCHEMA1&quot;.&quot;T1&quot;
+cze 05, 2023 3:57:09 PM com.ibm.connect.sdk.jdbc.JdbcTargetInteraction createTable
+INFO: CREATE TABLE &quot;SCHEMA1&quot;.&quot;T2&quot; (&quot;C1&quot; DATE, &quot;C2&quot; TIME, &quot;C3&quot; TIMESTAMP)
+cze 05, 2023 3:57:09 PM com.ibm.connect.sdk.jdbc.JdbcTargetInteraction putStream
+INFO: INSERT INTO &quot;SCHEMA1&quot;.&quot;T2&quot; (&quot;C1&quot;,&quot;C2&quot;,&quot;C3&quot;) VALUES (?,?,?)
+cze 05, 2023 3:57:09 PM com.ibm.connect.sdk.jdbc.JdbcSourceInteraction beginStream
+INFO: SELECT &quot;C1&quot;, &quot;C2&quot;, &quot;C3&quot; FROM &quot;SCHEMA1&quot;.&quot;T2&quot;
+cze 05, 2023 3:57:09 PM com.ibm.connect.sdk.jdbc.JdbcSourceInteraction beginStream
+INFO: SELECT &quot;C1&quot; FROM &quot;SCHEMA1&quot;.&quot;T1&quot; FETCH FIRST 5 ROWS ONLY
+cze 05, 2023 3:57:09 PM com.ibm.connect.sdk.jdbc.JdbcSourceInteraction beginStream
+INFO: SELECT &quot;C1&quot;, &quot;C2&quot;, &quot;C3&quot;, &quot;C4&quot; FROM &quot;SCHEMA1&quot;.&quot;T1&quot;
+cze 05, 2023 3:57:09 PM com.ibm.connect.sdk.jdbc.JdbcTargetInteraction createTable
+INFO: CREATE TABLE &quot;SCHEMA1&quot;.&quot;T2&quot; (&quot;C1&quot; CHAR(5), &quot;C2&quot; CLOB(2147483647), &quot;C3&quot; LONG VARCHAR, &quot;C4&quot; VARCHAR(20))
+cze 05, 2023 3:57:09 PM com.ibm.connect.sdk.jdbc.JdbcTargetInteraction putStream
+INFO: INSERT INTO &quot;SCHEMA1&quot;.&quot;T2&quot; (&quot;C1&quot;,&quot;C2&quot;,&quot;C3&quot;,&quot;C4&quot;) VALUES (?,?,?,?)
+cze 05, 2023 3:57:09 PM com.ibm.connect.sdk.jdbc.JdbcSourceInteraction beginStream
+INFO: SELECT &quot;C1&quot;, &quot;C2&quot;, &quot;C3&quot;, &quot;C4&quot; FROM &quot;SCHEMA1&quot;.&quot;T2&quot;
+cze 05, 2023 3:57:10 PM com.ibm.connect.sdk.jdbc.JdbcSourceInteraction beginStream
+INFO: SELECT &quot;C1&quot;, &quot;C2&quot;, &quot;C3&quot; FROM &quot;SCHEMA1&quot;.&quot;T2&quot;
+cze 05, 2023 3:57:10 PM com.ibm.connect.sdk.jdbc.JdbcTargetInteraction putStream
+INFO: UPDATE &quot;SCHEMA1&quot;.&quot;T1&quot; SET &quot;C2&quot; = ? WHERE &quot;C1&quot; = ? AND &quot;C3&quot; = ?
+cze 05, 2023 3:57:10 PM com.ibm.connect.sdk.jdbc.JdbcSourceInteraction beginStream
+INFO: SELECT * FROM SCHEMA1.T1 ORDER BY C1
+cze 05, 2023 3:57:10 PM com.ibm.connect.sdk.jdbc.JdbcSourceInteraction beginStream
+INFO: SELECT &quot;C1&quot;, &quot;C2&quot; FROM &quot;SCHEMA1&quot;.&quot;T1&quot;
+cze 05, 2023 3:57:10 PM com.ibm.connect.sdk.jdbc.JdbcTargetInteraction createTable
+INFO: CREATE TABLE &quot;SCHEMA1&quot;.&quot;T2&quot; (&quot;C1&quot; BOOLEAN, &quot;C2&quot; BOOLEAN)
+cze 05, 2023 3:57:10 PM com.ibm.connect.sdk.jdbc.JdbcTargetInteraction putStream
+INFO: INSERT INTO &quot;SCHEMA1&quot;.&quot;T2&quot; (&quot;C1&quot;,&quot;C2&quot;) VALUES (?,?)
+cze 05, 2023 3:57:10 PM com.ibm.connect.sdk.jdbc.JdbcSourceInteraction beginStream
+INFO: SELECT &quot;C1&quot;, &quot;C2&quot; FROM &quot;SCHEMA1&quot;.&quot;T2&quot;
+cze 05, 2023 3:57:10 PM com.ibm.connect.sdk.jdbc.JdbcSourceInteraction beginStream
+INFO: SELECT &quot;C1&quot;, &quot;C2&quot;, &quot;C3&quot;, &quot;C4&quot;, &quot;C5&quot; FROM &quot;SCHEMA1&quot;.&quot;T1&quot;
+cze 05, 2023 3:57:10 PM com.ibm.connect.sdk.jdbc.JdbcSourceInteraction beginStream
+INFO: SELECT &quot;C1&quot;, &quot;C2&quot;, &quot;C3&quot;, &quot;C4&quot; FROM &quot;SCHEMA1&quot;.&quot;T1&quot;
+cze 05, 2023 3:57:10 PM com.ibm.connect.sdk.jdbc.JdbcSourceInteraction beginStream
+INFO: SELECT &quot;C9&quot;, &quot;C6&quot;, &quot;C1&quot; FROM &quot;SCHEMA1&quot;.&quot;T1&quot;
+cze 05, 2023 3:57:10 PM com.ibm.connect.sdk.jdbc.JdbcTargetInteraction createTable
+INFO: CREATE TABLE &quot;SCHEMA1&quot;.&quot;T2&quot; (&quot;C9&quot; SMALLINT, &quot;C6&quot; INTEGER, &quot;C1&quot; BIGINT)
+cze 05, 2023 3:57:10 PM com.ibm.connect.sdk.jdbc.JdbcTargetInteraction putStream
+INFO: INSERT INTO &quot;SCHEMA1&quot;.&quot;T2&quot; (&quot;C9&quot;,&quot;C6&quot;,&quot;C1&quot;) VALUES (?,?,?)
+cze 05, 2023 3:57:10 PM com.ibm.connect.sdk.jdbc.JdbcSourceInteraction beginStream
+INFO: SELECT &quot;C9&quot;, &quot;C6&quot;, &quot;C1&quot; FROM &quot;SCHEMA1&quot;.&quot;T2&quot;
+cze 05, 2023 3:57:11 PM com.ibm.connect.sdk.jdbc.JdbcTargetInteraction createTable
+INFO: CREATE TABLE &quot;SCHEMA1&quot;.&quot;T2&quot; (&quot;C1&quot; BIGINT, &quot;C2&quot; DECIMAL(31,2), &quot;C3&quot; DOUBLE, &quot;C4&quot; DOUBLE, &quot;C5&quot; REAL, &quot;C6&quot; INTEGER, &quot;C7&quot; DECIMAL(31,6), &quot;C8&quot; REAL, &quot;C9&quot; SMALLINT)
+cze 05, 2023 3:57:11 PM com.ibm.connect.sdk.jdbc.JdbcSourceInteraction beginStream
+INFO: SELECT &quot;C1&quot;, &quot;C2&quot;, &quot;C3&quot;, &quot;C4&quot;, &quot;C5&quot;, &quot;C6&quot;, &quot;C7&quot;, &quot;C8&quot;, &quot;C9&quot; FROM &quot;SCHEMA1&quot;.&quot;T1&quot;
+cze 05, 2023 3:57:11 PM com.ibm.connect.sdk.jdbc.JdbcTargetInteraction putStream
+INFO: INSERT INTO &quot;SCHEMA1&quot;.&quot;T2&quot; (&quot;C1&quot;,&quot;C2&quot;,&quot;C3&quot;,&quot;C4&quot;,&quot;C5&quot;,&quot;C6&quot;,&quot;C7&quot;,&quot;C8&quot;,&quot;C9&quot;) VALUES (?,?,?,?,?,?,?,?,?)
+cze 05, 2023 3:57:11 PM com.ibm.connect.sdk.jdbc.JdbcSourceInteraction beginStream
+INFO: SELECT &quot;C1&quot;, &quot;C2&quot;, &quot;C3&quot;, &quot;C4&quot;, &quot;C5&quot;, &quot;C6&quot;, &quot;C7&quot;, &quot;C8&quot;, &quot;C9&quot; FROM &quot;SCHEMA1&quot;.&quot;T2&quot;
+cze 05, 2023 3:57:11 PM com.ibm.connect.sdk.jdbc.JdbcConnector connect
+INFO: Connecting to jdbc:derby://192.168.8.134:40277/testdb;create=true
+cze 05, 2023 3:57:11 PM com.ibm.connect.sdk.jdbc.JdbcSourceInteraction beginStream
+INFO: SELECT &quot;C1&quot; FROM &quot;SCHEMA1&quot;.&quot;T1&quot; FETCH FIRST 5 ROWS ONLY
+cze 05, 2023 3:57:11 PM com.ibm.connect.sdk.jdbc.JdbcSourceInteraction beginStream
+INFO: SELECT &quot;C1&quot;, &quot;C2&quot;, &quot;C3&quot;, &quot;C4&quot;, &quot;C5&quot; FROM &quot;SCHEMA1&quot;.&quot;T1&quot;
+cze 05, 2023 3:57:11 PM com.ibm.connect.sdk.jdbc.JdbcSourceInteraction beginStream
+INFO: SELECT &quot;C1&quot; FROM &quot;SCHEMA1&quot;.&quot;T1&quot;
+cze 05, 2023 3:57:11 PM com.ibm.connect.sdk.jdbc.JdbcTargetInteraction truncateTable
+INFO: TRUNCATE TABLE &quot;SCHEMA1&quot;.&quot;T2&quot;
+cze 05, 2023 3:57:11 PM com.ibm.connect.sdk.jdbc.JdbcTargetInteraction putStream
+INFO: INSERT INTO &quot;SCHEMA1&quot;.&quot;T2&quot; (&quot;C1&quot;) VALUES (?)
+cze 05, 2023 3:57:11 PM com.ibm.connect.sdk.jdbc.JdbcSourceInteraction beginStream
+INFO: SELECT &quot;C1&quot; FROM &quot;SCHEMA1&quot;.&quot;T2&quot;
+cze 05, 2023 3:57:11 PM com.ibm.connect.sdk.jdbc.JdbcSourceInteraction beginStream
+INFO: SELECT &quot;C1&quot;, &quot;C2&quot;, &quot;C3&quot;, &quot;C4&quot;, &quot;C5&quot;, &quot;C6&quot;, &quot;C7&quot;, &quot;C8&quot;, &quot;C9&quot; FROM &quot;SCHEMA1&quot;.&quot;T1&quot;
+cze 05, 2023 3:57:11 PM com.ibm.connect.sdk.jdbc.JdbcTargetInteraction createTable
+INFO: CREATE TABLE &quot;SCHEMA1&quot;.&quot;T2&quot; (&quot;C1&quot; BIGINT, &quot;C2&quot; DECIMAL(31,2), &quot;C3&quot; DOUBLE, &quot;C4&quot; DOUBLE, &quot;C5&quot; REAL, &quot;C6&quot; INTEGER, &quot;C7&quot; DECIMAL(31,6), &quot;C8&quot; REAL, &quot;C9&quot; SMALLINT)
+cze 05, 2023 3:57:11 PM com.ibm.connect.sdk.jdbc.JdbcTargetInteraction putStream
+INFO: INSERT INTO &quot;SCHEMA1&quot;.&quot;T2&quot; (&quot;C1&quot;,&quot;C2&quot;,&quot;C3&quot;,&quot;C4&quot;,&quot;C5&quot;,&quot;C6&quot;,&quot;C7&quot;,&quot;C8&quot;,&quot;C9&quot;) VALUES (?,?,?,?,?,?,?,?,?)
+cze 05, 2023 3:57:11 PM com.ibm.connect.sdk.jdbc.JdbcSourceInteraction beginStream
+INFO: SELECT &quot;C1&quot;, &quot;C2&quot;, &quot;C3&quot;, &quot;C4&quot;, &quot;C5&quot;, &quot;C6&quot;, &quot;C7&quot;, &quot;C8&quot;, &quot;C9&quot; FROM &quot;SCHEMA1&quot;.&quot;T2&quot;
+cze 05, 2023 3:57:11 PM com.ibm.connect.sdk.api.ConnectorFlightProducer doAction
+SEVERE: Missing jdbc_url
+java.lang.IllegalArgumentException: Missing jdbc_url
+	at com.ibm.connect.sdk.jdbc.generic.GenericJdbcConnector.&lt;init&gt;(GenericJdbcConnector.java:91)
+	at com.ibm.connect.sdk.bundle.BundleConnectorFactory.createNewConnector(BundleConnectorFactory.java:52)
+	at com.ibm.connect.sdk.api.PooledConnectorFactory.create(PooledConnectorFactory.java:61)
+	at com.ibm.connect.sdk.api.PooledConnectorFactory.create(PooledConnectorFactory.java:21)
+	at org.apache.commons.pool2.BaseKeyedPooledObjectFactory.makeObject(BaseKeyedPooledObjectFactory.java:82)
+	at org.apache.commons.pool2.impl.GenericKeyedObjectPool.create(GenericKeyedObjectPool.java:780)
+	at org.apache.commons.pool2.impl.GenericKeyedObjectPool.borrowObject(GenericKeyedObjectPool.java:439)
+	at org.apache.commons.pool2.impl.GenericKeyedObjectPool.borrowObject(GenericKeyedObjectPool.java:350)
+	at com.ibm.connect.sdk.api.PooledConnectorFactory.createConnector(PooledConnectorFactory.java:96)
+	at com.ibm.connect.sdk.api.ConnectorFlightProducer.doAction(ConnectorFlightProducer.java:380)
+	at org.apache.arrow.flight.FlightService.doAction(FlightService.java:124)
+	at org.apache.arrow.flight.impl.FlightServiceGrpc$MethodHandlers.invoke(FlightServiceGrpc.java:925)
+	at io.grpc.stub.ServerCalls$UnaryServerCallHandler$UnaryServerCallListener.onHalfClose(ServerCalls.java:182)
+	at io.grpc.PartialForwardingServerCallListener.onHalfClose(PartialForwardingServerCallListener.java:35)
+	at io.grpc.ForwardingServerCallListener.onHalfClose(ForwardingServerCallListener.java:23)
+	at io.grpc.ForwardingServerCallListener$SimpleForwardingServerCallListener.onHalfClose(ForwardingServerCallListener.java:40)
+	at io.grpc.Contexts$ContextualizedServerCallListener.onHalfClose(Contexts.java:86)
+	at io.grpc.PartialForwardingServerCallListener.onHalfClose(PartialForwardingServerCallListener.java:35)
+	at io.grpc.ForwardingServerCallListener.onHalfClose(ForwardingServerCallListener.java:23)
+	at io.grpc.ForwardingServerCallListener$SimpleForwardingServerCallListener.onHalfClose(ForwardingServerCallListener.java:40)
+	at io.grpc.Contexts$ContextualizedServerCallListener.onHalfClose(Contexts.java:86)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.halfClosed(ServerCallImpl.java:355)
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$1HalfClosed.runInContext(ServerImpl.java:867)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:133)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+cze 05, 2023 3:57:11 PM com.ibm.connect.sdk.jdbc.JdbcSourceInteraction beginStream
+INFO: SELECT &quot;C1&quot;, &quot;C2&quot; FROM &quot;SCHEMA1&quot;.&quot;T1&quot;
+cze 05, 2023 3:57:11 PM com.ibm.connect.sdk.jdbc.JdbcTargetInteraction createTable
+INFO: CREATE TABLE SCHEMA1.T2 (ID INT NOT NULL GENERATED ALWAYS AS IDENTITY, C1 CHAR(5), C2 VARCHAR(20))
+cze 05, 2023 3:57:11 PM com.ibm.connect.sdk.jdbc.JdbcTargetInteraction putStream
+INFO: INSERT INTO &quot;SCHEMA1&quot;.&quot;T2&quot; (&quot;C1&quot;,&quot;C2&quot;) VALUES (?,?)
+cze 05, 2023 3:57:11 PM com.ibm.connect.sdk.jdbc.JdbcSourceInteraction beginStream
+INFO: SELECT &quot;ID&quot;, &quot;C1&quot;, &quot;C2&quot; FROM &quot;SCHEMA1&quot;.&quot;T2&quot;
+cze 05, 2023 3:57:11 PM com.ibm.connect.sdk.jdbc.JdbcSourceInteraction beginStream
+INFO: SELECT &quot;C1&quot;, &quot;C2&quot;, &quot;C3&quot;, &quot;C4&quot;, &quot;C5&quot;, &quot;C6&quot;, &quot;C7&quot;, &quot;C8&quot;, &quot;C9&quot; FROM &quot;SCHEMA1&quot;.&quot;T1&quot;
+cze 05, 2023 3:57:11 PM com.ibm.connect.sdk.jdbc.JdbcSourceInteraction beginStream
+INFO: SELECT &quot;C1&quot;, &quot;C2&quot;, &quot;C3&quot;, &quot;C4&quot;, &quot;C5&quot; FROM &quot;SCHEMA1&quot;.&quot;T1&quot;
+cze 05, 2023 3:57:11 PM com.ibm.connect.sdk.jdbc.JdbcTargetInteraction createTable
+INFO: CREATE TABLE &quot;SCHEMA1&quot;.&quot;T2&quot; (&quot;C1&quot; DECIMAL(2,1), &quot;C2&quot; DECIMAL(4,2), &quot;C3&quot; DECIMAL(9,3), &quot;C4&quot; DECIMAL(18,4), &quot;C5&quot; DECIMAL(31,5))
+cze 05, 2023 3:57:11 PM com.ibm.connect.sdk.jdbc.JdbcTargetInteraction putStream
+INFO: INSERT INTO &quot;SCHEMA1&quot;.&quot;T2&quot; (&quot;C1&quot;,&quot;C2&quot;,&quot;C3&quot;,&quot;C4&quot;,&quot;C5&quot;) VALUES (?,?,?,?,?)
+cze 05, 2023 3:57:11 PM com.ibm.connect.sdk.jdbc.JdbcSourceInteraction beginStream
+INFO: SELECT &quot;C1&quot;, &quot;C2&quot;, &quot;C3&quot;, &quot;C4&quot;, &quot;C5&quot; FROM &quot;SCHEMA1&quot;.&quot;T2&quot;
+cze 05, 2023 3:57:12 PM com.ibm.connect.sdk.jdbc.JdbcSourceInteraction beginStream
+INFO: SELECT &quot;C1&quot;, &quot;C2&quot;, &quot;C3&quot; FROM &quot;SCHEMA1&quot;.&quot;T1&quot;
+cze 05, 2023 3:57:12 PM com.ibm.connect.sdk.jdbc.JdbcTargetInteraction createTable
+INFO: CREATE TABLE &quot;SCHEMA1&quot;.&quot;T2&quot; (&quot;C1&quot; BIGINT)
+cze 05, 2023 3:57:12 PM com.ibm.connect.sdk.jdbc.JdbcSourceInteraction beginStream
+INFO: SELECT &quot;C1&quot; FROM &quot;SCHEMA1&quot;.&quot;T1&quot;
+cze 05, 2023 3:57:12 PM com.ibm.connect.sdk.jdbc.JdbcTargetInteraction putStream
+INFO: INSERT INTO &quot;SCHEMA1&quot;.&quot;T2&quot; (&quot;C1&quot;) VALUES (?)
+cze 05, 2023 3:57:12 PM com.ibm.connect.sdk.jdbc.JdbcSourceInteraction beginStream
+INFO: SELECT * FROM SCHEMA1.T2 ORDER BY C1
+cze 05, 2023 3:57:12 PM com.ibm.connect.sdk.jdbc.JdbcConnector connect
+INFO: Connecting to jdbc:derby://192.168.8.134:40277/testdb;ssl=basic;create=true
+cze 05, 2023 3:57:12 PM com.ibm.connect.sdk.api.ConnectorFlightProducer doAction
+SEVERE: Wykryto błąd komunikacji: Unsupported or unrecognized SSL message.
+java.sql.SQLNonTransientConnectionException: Wykryto błąd komunikacji: Unsupported or unrecognized SSL message.
+	at org.apache.derby.client.am.SQLExceptionFactory.getSQLException(SQLExceptionFactory.java:74)
+	at org.apache.derby.client.am.SqlException.getSQLException(SqlException.java:325)
+	at org.apache.derby.client.ClientAutoloadedDriver.connect(ClientAutoloadedDriver.java:177)
+	at com.ibm.connect.sdk.jdbc.JdbcConnector.connect(JdbcConnector.java:278)
+	at com.ibm.connect.sdk.api.PooledConnector.connect(PooledConnector.java:70)
+	at com.ibm.connect.sdk.api.ConnectorFlightProducer.doAction(ConnectorFlightProducer.java:372)
+	at org.apache.arrow.flight.FlightService.doAction(FlightService.java:124)
+	at org.apache.arrow.flight.impl.FlightServiceGrpc$MethodHandlers.invoke(FlightServiceGrpc.java:925)
+	at io.grpc.stub.ServerCalls$UnaryServerCallHandler$UnaryServerCallListener.onHalfClose(ServerCalls.java:182)
+	at io.grpc.PartialForwardingServerCallListener.onHalfClose(PartialForwardingServerCallListener.java:35)
+	at io.grpc.ForwardingServerCallListener.onHalfClose(ForwardingServerCallListener.java:23)
+	at io.grpc.ForwardingServerCallListener$SimpleForwardingServerCallListener.onHalfClose(ForwardingServerCallListener.java:40)
+	at io.grpc.Contexts$ContextualizedServerCallListener.onHalfClose(Contexts.java:86)
+	at io.grpc.PartialForwardingServerCallListener.onHalfClose(PartialForwardingServerCallListener.java:35)
+	at io.grpc.ForwardingServerCallListener.onHalfClose(ForwardingServerCallListener.java:23)
+	at io.grpc.ForwardingServerCallListener$SimpleForwardingServerCallListener.onHalfClose(ForwardingServerCallListener.java:40)
+	at io.grpc.Contexts$ContextualizedServerCallListener.onHalfClose(Contexts.java:86)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.halfClosed(ServerCallImpl.java:355)
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$1HalfClosed.runInContext(ServerImpl.java:867)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:133)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: ERROR 08006: Wykryto błąd komunikacji: Unsupported or unrecognized SSL message.
+	at org.apache.derby.client.net.NetAgent.throwCommunicationsFailure(NetAgent.java:441)
+	at org.apache.derby.client.net.NetAgent.sendRequest(NetAgent.java:408)
+	at org.apache.derby.client.net.NetAgent.flush_(NetAgent.java:286)
+	at org.apache.derby.client.am.Agent.flowOutsideUOW(Agent.java:245)
+	at org.apache.derby.client.net.NetConnection.flowServerAttributesAndKeyExchange(NetConnection.java:707)
+	at org.apache.derby.client.net.NetConnection.flowUSRIDPWDconnect(NetConnection.java:550)
+	at org.apache.derby.client.net.NetConnection.flowConnect(NetConnection.java:355)
+	at org.apache.derby.client.net.NetConnection.&lt;init&gt;(NetConnection.java:210)
+	at org.apache.derby.client.net.ClientJDBCObjectFactoryImpl.newNetConnection(ClientJDBCObjectFactoryImpl.java:278)
+	at org.apache.derby.client.ClientAutoloadedDriver.connect(ClientAutoloadedDriver.java:170)
+	... 21 more
+Caused by: javax.net.ssl.SSLException: Unsupported or unrecognized SSL message
+	at java.base/sun.security.ssl.SSLSocketInputRecord.handleUnknownRecord(SSLSocketInputRecord.java:457)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.decode(SSLSocketInputRecord.java:175)
+	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:111)
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1507)
+	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1417)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:456)
+	at java.base/sun.security.ssl.SSLSocketImpl.ensureNegotiated(SSLSocketImpl.java:922)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppOutputStream.write(SSLSocketImpl.java:1292)
+	at org.apache.derby.client.net.Request.sendBytes(Request.java:1200)
+	at org.apache.derby.client.net.Request.flush(Request.java:1192)
+	at org.apache.derby.client.net.NetAgent.sendRequest(NetAgent.java:406)
+	... 29 more
+
+cze 05, 2023 3:57:12 PM com.ibm.connect.sdk.jdbc.JdbcSourceInteraction beginStream
+INFO: SELECT &quot;C1&quot;, &quot;C2&quot;, &quot;C3&quot;, &quot;C4&quot;, &quot;C5&quot;, &quot;C6&quot;, &quot;C7&quot;, &quot;C8&quot;, &quot;C9&quot; FROM &quot;SCHEMA1&quot;.&quot;T1&quot;
+cze 05, 2023 3:57:12 PM com.ibm.connect.sdk.jdbc.JdbcTargetInteraction createTable
+INFO: CREATE TABLE &quot;SCHEMA1&quot;.&quot;T2&quot; (&quot;C1&quot; BIGINT, &quot;C2&quot; DECIMAL(31,2), &quot;C3&quot; DOUBLE, &quot;C4&quot; DOUBLE, &quot;C5&quot; REAL, &quot;C6&quot; INTEGER, &quot;C7&quot; DECIMAL(31,6), &quot;C8&quot; REAL, &quot;C9&quot; SMALLINT)
+cze 05, 2023 3:57:12 PM com.ibm.connect.sdk.jdbc.JdbcTargetInteraction putStream
+INFO: INSERT INTO &quot;SCHEMA1&quot;.&quot;T2&quot; (&quot;C1&quot;,&quot;C2&quot;,&quot;C3&quot;,&quot;C4&quot;,&quot;C5&quot;,&quot;C6&quot;,&quot;C7&quot;,&quot;C8&quot;,&quot;C9&quot;) VALUES (?,?,?,?,?,?,?,?,?)
+cze 05, 2023 3:57:12 PM com.ibm.connect.sdk.jdbc.JdbcSourceInteraction beginStream
+INFO: SELECT &quot;C1&quot;, &quot;C2&quot;, &quot;C3&quot;, &quot;C4&quot;, &quot;C5&quot;, &quot;C6&quot;, &quot;C7&quot;, &quot;C8&quot;, &quot;C9&quot; FROM &quot;SCHEMA1&quot;.&quot;T2&quot;
+cze 05, 2023 3:57:12 PM com.ibm.connect.sdk.jdbc.JdbcSourceInteraction beginStream
+INFO: SELECT &quot;C1&quot;, &quot;C2&quot;, &quot;C3&quot; FROM &quot;SCHEMA1&quot;.&quot;T2&quot;
+cze 05, 2023 3:57:12 PM com.ibm.connect.sdk.jdbc.JdbcTargetInteraction putStream
+INFO: UPDATE &quot;SCHEMA1&quot;.&quot;T1&quot; SET &quot;C1&quot; = ?, &quot;C2&quot; = ? WHERE &quot;C3&quot; = ?
+cze 05, 2023 3:57:12 PM com.ibm.connect.sdk.jdbc.JdbcSourceInteraction beginStream
+INFO: SELECT * FROM SCHEMA1.T1 ORDER BY C3
+cze 05, 2023 3:57:12 PM com.ibm.connect.sdk.jdbc.JdbcSourceInteraction beginStream
+INFO: SELECT &quot;C1&quot; FROM &quot;SCHEMA1&quot;.&quot;T1&quot;
+cze 05, 2023 3:57:12 PM com.ibm.connect.sdk.jdbc.JdbcTargetInteraction dropTable
+INFO: DROP TABLE &quot;SCHEMA1&quot;.&quot;T2&quot;
+cze 05, 2023 3:57:12 PM com.ibm.connect.sdk.jdbc.JdbcTargetInteraction createTable
+INFO: CREATE TABLE &quot;SCHEMA1&quot;.&quot;T2&quot; (&quot;C1&quot; INTEGER)
+cze 05, 2023 3:57:12 PM com.ibm.connect.sdk.jdbc.JdbcTargetInteraction putStream
+INFO: INSERT INTO &quot;SCHEMA1&quot;.&quot;T2&quot; (&quot;C1&quot;) VALUES (?)
+cze 05, 2023 3:57:12 PM com.ibm.connect.sdk.jdbc.JdbcSourceInteraction beginStream
+INFO: SELECT &quot;C1&quot; FROM &quot;SCHEMA1&quot;.&quot;T2&quot;
+cze 05, 2023 3:57:12 PM com.ibm.connect.sdk.jdbc.JdbcTargetInteraction putSetup
+INFO: CREATE TABLE SCHEMA1.T1 (C1 INTEGER)
+cze 05, 2023 3:57:12 PM com.ibm.connect.sdk.api.ConnectorFlightProducer listFlights
+SEVERE: Invalid criteria
+java.lang.IllegalArgumentException: Invalid criteria
+	at com.ibm.connect.sdk.api.ConnectorFlightProducer.listFlights(ConnectorFlightProducer.java:196)
+	at org.apache.arrow.flight.FlightService.listFlights(FlightService.java:98)
+	at org.apache.arrow.flight.impl.FlightServiceGrpc$MethodHandlers.invoke(FlightServiceGrpc.java:909)
+	at io.grpc.stub.ServerCalls$UnaryServerCallHandler$UnaryServerCallListener.onHalfClose(ServerCalls.java:182)
+	at io.grpc.PartialForwardingServerCallListener.onHalfClose(PartialForwardingServerCallListener.java:35)
+	at io.grpc.ForwardingServerCallListener.onHalfClose(ForwardingServerCallListener.java:23)
+	at io.grpc.ForwardingServerCallListener$SimpleForwardingServerCallListener.onHalfClose(ForwardingServerCallListener.java:40)
+	at io.grpc.Contexts$ContextualizedServerCallListener.onHalfClose(Contexts.java:86)
+	at io.grpc.PartialForwardingServerCallListener.onHalfClose(PartialForwardingServerCallListener.java:35)
+	at io.grpc.ForwardingServerCallListener.onHalfClose(ForwardingServerCallListener.java:23)
+	at io.grpc.ForwardingServerCallListener$SimpleForwardingServerCallListener.onHalfClose(ForwardingServerCallListener.java:40)
+	at io.grpc.Contexts$ContextualizedServerCallListener.onHalfClose(Contexts.java:86)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.halfClosed(ServerCallImpl.java:355)
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$1HalfClosed.runInContext(ServerImpl.java:867)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:133)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+cze 05, 2023 3:57:13 PM com.ibm.connect.sdk.api.ConnectorFlightProducer doAction
+SEVERE: Missing action body
+java.lang.IllegalArgumentException: Missing action body
+	at com.ibm.connect.sdk.api.ConnectorFlightProducer.doAction(ConnectorFlightProducer.java:367)
+	at org.apache.arrow.flight.FlightService.doAction(FlightService.java:124)
+	at org.apache.arrow.flight.impl.FlightServiceGrpc$MethodHandlers.invoke(FlightServiceGrpc.java:925)
+	at io.grpc.stub.ServerCalls$UnaryServerCallHandler$UnaryServerCallListener.onHalfClose(ServerCalls.java:182)
+	at io.grpc.PartialForwardingServerCallListener.onHalfClose(PartialForwardingServerCallListener.java:35)
+	at io.grpc.ForwardingServerCallListener.onHalfClose(ForwardingServerCallListener.java:23)
+	at io.grpc.ForwardingServerCallListener$SimpleForwardingServerCallListener.onHalfClose(ForwardingServerCallListener.java:40)
+	at io.grpc.Contexts$ContextualizedServerCallListener.onHalfClose(Contexts.java:86)
+	at io.grpc.PartialForwardingServerCallListener.onHalfClose(PartialForwardingServerCallListener.java:35)
+	at io.grpc.ForwardingServerCallListener.onHalfClose(ForwardingServerCallListener.java:23)
+	at io.grpc.ForwardingServerCallListener$SimpleForwardingServerCallListener.onHalfClose(ForwardingServerCallListener.java:40)
+	at io.grpc.Contexts$ContextualizedServerCallListener.onHalfClose(Contexts.java:86)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.halfClosed(ServerCallImpl.java:355)
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$1HalfClosed.runInContext(ServerImpl.java:867)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:133)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+cze 05, 2023 3:57:13 PM com.ibm.connect.sdk.api.ConnectorFlightProducer doAction
+SEVERE: doAction unknown is not supported
+java.lang.UnsupportedOperationException: doAction unknown is not supported
+	at com.ibm.connect.sdk.jdbc.JdbcConnector.performAction(JdbcConnector.java:718)
+	at com.ibm.connect.sdk.api.PooledConnector.performAction(PooledConnector.java:115)
+	at com.ibm.connect.sdk.api.ConnectorFlightProducer.doAction(ConnectorFlightProducer.java:391)
+	at org.apache.arrow.flight.FlightService.doAction(FlightService.java:124)
+	at org.apache.arrow.flight.impl.FlightServiceGrpc$MethodHandlers.invoke(FlightServiceGrpc.java:925)
+	at io.grpc.stub.ServerCalls$UnaryServerCallHandler$UnaryServerCallListener.onHalfClose(ServerCalls.java:182)
+	at io.grpc.PartialForwardingServerCallListener.onHalfClose(PartialForwardingServerCallListener.java:35)
+	at io.grpc.ForwardingServerCallListener.onHalfClose(ForwardingServerCallListener.java:23)
+	at io.grpc.ForwardingServerCallListener$SimpleForwardingServerCallListener.onHalfClose(ForwardingServerCallListener.java:40)
+	at io.grpc.Contexts$ContextualizedServerCallListener.onHalfClose(Contexts.java:86)
+	at io.grpc.PartialForwardingServerCallListener.onHalfClose(PartialForwardingServerCallListener.java:35)
+	at io.grpc.ForwardingServerCallListener.onHalfClose(ForwardingServerCallListener.java:23)
+	at io.grpc.ForwardingServerCallListener$SimpleForwardingServerCallListener.onHalfClose(ForwardingServerCallListener.java:40)
+	at io.grpc.Contexts$ContextualizedServerCallListener.onHalfClose(Contexts.java:86)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.halfClosed(ServerCallImpl.java:355)
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$1HalfClosed.runInContext(ServerImpl.java:867)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:133)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 8.0.1</a> at 5 cze 2023, 17:57:13</p>
+</div>
+</div>
+</body>
+</html>
