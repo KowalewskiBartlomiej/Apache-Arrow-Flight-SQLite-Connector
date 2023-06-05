@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.ibm.connect.sdk.impl.TestPropertyValidation" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-06-05T15:55:51" hostname="Bartek-Laptop" time="0.01">
-  <properties/>
-  <testcase name="testConnectionProperties" classname="com.ibm.connect.sdk.impl.TestPropertyValidation" time="0.008"/>
-  <testcase name="testConnectionPropertiesNegative" classname="com.ibm.connect.sdk.impl.TestPropertyValidation" time="0.002"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
