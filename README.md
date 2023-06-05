@@ -29,4 +29,5 @@ To check the log file use `docker exec -it wdp-connect-sdk-gen-flight bash`. The
 While testing our connector we noticed that the Python Client returns nulls in several places (see images below):<br />
 ![1](images/null1.png) <br />
 ![2](images/null2.png) <br />
+<br/>
 We don't know why the Python Client returns the nulls. We think that it isn't able to connect. The log file doesn't show any errors.
